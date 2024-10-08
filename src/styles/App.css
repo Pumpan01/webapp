@@ -1,0 +1,49 @@
+/* App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.employee-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  max-width: 400px;
+  margin: 10px auto; /* จัดให้ข้อมูลพนักงานอยู่กลางหน้าจอ */
+}
+
+.employee-info {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* ระยะห่างระหว่างปุ่ม */
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.message {
+  color: green;
+  font-weight: bold;
+  margin-top: 10px;
+}
